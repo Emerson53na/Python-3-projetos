@@ -5,7 +5,8 @@ delta = {1 : 'I',  2 : 'II', 3 : 'III', 4 : 'IV', 5 : 'V', 6 : 'VI', 7 : 'VII', 
 
 
 while True:
-    opc = str(input('\n>> '))
+    print('\nDigite um número entre 1 e 3999.')
+    opc = str(input(' >> '))
     le = len(opc)
              
     if le == 1:
